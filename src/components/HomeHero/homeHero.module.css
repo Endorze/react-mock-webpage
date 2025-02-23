@@ -1,0 +1,34 @@
+.hero {
+    background-image: url("/image/falloutbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.heroTextContainer {
+    max-width: 1220px;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 35px;
+    padding: 0 20px; */
+    margin-top: auto;
+    color: #fff;
+    font-family: 'Eurostile', sans-serif;
+}
+
+.heroTextContainer h2 {
+    font-size: 5rem;
+}
+
+.heroTextContainer p {
+    font-weight: bold;
+}
+
+.heroContainer {
+    flex-grow: 1;
+    padding-bottom: 5rem;
+}
