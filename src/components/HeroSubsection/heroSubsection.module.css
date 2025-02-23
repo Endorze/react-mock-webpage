@@ -1,0 +1,23 @@
+.subsection {
+    background-color: #0d161d;
+    text-align: left;
+    color: #fff;
+    padding: 60px 0 80px;
+    box-shadow: 0 -15px 20px 5px #0d161d;
+}
+
+.subsectionContent h1, p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+.subsectionContent, .subsectionVideo {
+    flex-basis: calc(50% - 18px);
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
