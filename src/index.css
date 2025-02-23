@@ -10,25 +10,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 200vh;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-.header a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.navWrap {
-  max-width: 300px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.header {
-  background-color: black;
-  color: aliceblue;
-  padding: 50px;
 }

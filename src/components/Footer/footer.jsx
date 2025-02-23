@@ -1,11 +1,8 @@
+import styles from "./footer.module.css"
+
 const Footer = () => {
-    return <div>
-        <img src="" />
-        <div>
-            <a href="/">Home</a>
-            <a href="/">Home</a>
-            <a href="/">Home</a>
-        </div>
+    return <div className={styles.footer}>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea rerum eius temporibus cum nobis velit dolorum quod neque, saepe atque. Doloribus quae laborum obcaecati facilis laboriosam quas dolore et ea?</p>
     </div>
 }
 

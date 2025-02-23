@@ -1,11 +1,11 @@
 import Footer from "../../components/Footer/footer";
-import Header from "../../components/Header/header";
-
+import HomeHero from "../../components/HomeHero/homeHero";
+import MainContent from "../../components/MainContent/mainContent";
 
 const Home = () => {
-    return <div>
-        <Header />
-            <h1>Home page</h1>
+    return <div className="homeContainer">
+        <HomeHero />
+        <MainContent />
         <Footer />
     </div>
 }
