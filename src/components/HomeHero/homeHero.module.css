@@ -17,10 +17,15 @@
     padding: 0 20px; */
     margin-top: auto;
     color: #fff;
+    font-family: 'Eurostile', sans-serif;
 }
 
 .heroTextContainer h2 {
     font-size: 5rem;
+}
+
+.heroTextContainer p {
+    font-weight: bold;
 }
 
 .heroContainer {
