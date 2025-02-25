@@ -1,0 +1,21 @@
+.careerItem {
+    border-top: 1px solid #dfdfdf;
+    line-height: 1.5;
+    padding: 1.35em 0;
+}
+
+.careerItem p, h3 {
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.careerItem a {
+    text-decoration: none;
+    color: #2bc3ff;
+}
+
+@media screen and (min-width: 480px) {
+    .careerItem {
+        flex-basis: calc(50% - 18px);
+    }
+}

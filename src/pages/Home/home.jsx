@@ -1,3 +1,4 @@
+import CareerSection from "../../components/CareerSection/careerSection";
 import Footer from "../../components/Footer/footer";
 import HeroSubsection from "../../components/HeroSubsection/heroSubsection";
 import HomeHero from "../../components/HomeHero/homeHero";
@@ -7,7 +8,7 @@ const Home = () => {
     return <div className="homeContainer">
         <HomeHero />
         <HeroSubsection />
-        <MainContent />
+        <CareerSection />
         <Footer />
     </div>
 }

@@ -1,0 +1,9 @@
+.careerItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.career {
+    padding: 100px 0;
+}
