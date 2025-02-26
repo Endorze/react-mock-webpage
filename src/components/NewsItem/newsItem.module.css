@@ -1,0 +1,18 @@
+.newsItem {
+    flex-basis: calc(33% - 10px);
+    display: flex;
+    flex-direction: column;
+}
+
+.readMore {
+    margin-top: auto;
+    padding-top: 15px;
+}
+
+.readMore a {
+    padding-top: 30px 0;
+    color: #78b0c7;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
