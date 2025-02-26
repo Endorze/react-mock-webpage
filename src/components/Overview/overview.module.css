@@ -1,0 +1,27 @@
+.overview {
+    background-image: url("/image/dark_gray_image.png");
+    align-items: flex-end;
+    background-color: #000;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    min-height: 500px;
+    padding-bottom: 100px;
+    padding-top: 12.5rem;
+    text-align: center;
+}
+
+.overviewSummary {
+    font-size: 1.125em;
+    margin: 0 auto;
+    max-width: 773px;
+    text-align: center;
+}
+
+.overview h2 {
+    font-size: 4.5em;
+    font-weight: 100;
+    margin-bottom: 2.5rem;
+    font-family: "Open Sans";
+}

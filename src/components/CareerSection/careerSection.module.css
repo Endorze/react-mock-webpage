@@ -7,3 +7,14 @@
 .career {
     padding: 100px 0;
 }
+
+.careerh3 {
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.moreJobs {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #78b0c7;
+}
