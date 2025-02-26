@@ -1,14 +1,14 @@
 import Container from "../Container/container";
 import styles from "./overview.module.css";
 
-const Overview = ({overviewTitle, overviewText}) => {
+const Overview = ({overviewTitle, children}) => {
     return (
         <div className={styles.overview}>
             <Container>
                 <div >
                     <h2>{overviewTitle}</h2>
                     <div className={styles.overviewSummary}>
-                    <p>{overviewText}</p>
+                    <p>{children}</p>
                     </div>
                 </div>
             </Container>
