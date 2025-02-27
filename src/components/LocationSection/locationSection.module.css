@@ -1,0 +1,35 @@
+.location {
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.buttonWrap {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.locationBackground {
+    background-image: url("/image/washington_dark_gray.jpeg");
+    min-height: 80vh;
+}
+
+.locationButton {
+    background: transparent !important;
+    color: #f1f1f1 !important;
+    font-size: 1em;
+}   
+
+.locationHeader {
+    font-size: 14px;
+    letter-spacing: .25em;
+    margin-bottom: 30px;
+    padding-top: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
