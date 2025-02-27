@@ -1,0 +1,31 @@
+.categories {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.categories h3 {
+    color: #a5a5a5;
+    font-size: .625rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.categories ul  {
+    list-style-type: none;
+}
+
+.categories ul li {
+    margin: 1em 0;
+}
+
+.locationContentText {
+    text-align: center;
+    padding: 50px 0px;
+    color: #fff;
+}
+
+.locationContentText h2 {
+    font-size: 4rem;
+}

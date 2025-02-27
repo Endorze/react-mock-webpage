@@ -17,7 +17,7 @@ const LatestNews = () => {
                 <NewsItem imgPath={img3} title={"The cute side of the Wasteland"} date={"By Vault-Tec News Network – February 26, 2025"} text={"In the harsh and unforgiving landscape of the wasteland, few survive without a loyal friend by their side. For the Lone Wanderer—known to some as Blueboy..."} />
             </HorizontalDisplay>
                 <div className={styles.buttonDiv}>
-            <Button buttonText={"More News"}/>
+            <Button><p>More News</p></Button>
             </div>
         </Wrapper>
     )
