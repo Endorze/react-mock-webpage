@@ -6,7 +6,7 @@ const HomeHero = () => {
         <Container className={styles.heroContainer}>
             <div className={styles.heroTextContainer}>
                 <h2>WE'RE<br />HIRING</h2>
-                <p>UPPSALA<br />GÖTEBORG<br />STOCKHOLM<br />TÖREBODA</p>
+                <p>THIS IS<br />A FANMADE<br />WEBSITE<br />Built by Alexander Hallgren</p>
             </div>
         </Container>
     </div>
