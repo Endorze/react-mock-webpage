@@ -1,9 +1,87 @@
-.footer {
+.contactTitle {
+    padding-bottom: 30px;
+    font-size: 16px;
+    letter-spacing: .25em;
+}
+
+.linkWrap {
     display: flex;
     flex-direction: column;
+}
+
+.contactSocialLink {
+    display: flex;
     align-items: center;
-    background-color: rgb(255, 0, 0);
-    padding: 50px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.contactSocialLink.facebook::before {
+    content: "";
+    background-image: url('/image/facebook.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.contactSocialLink.twitter::before {
+    content: "";
+    background-image: url('/image/twitter.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.footerWrapper {
+    min-height: 60vh;
+}
+
+.footerWrapper a {
+    color: #55a0b5;
+    text-decoration: none;
+}
+
+.footerPadding {
+    padding: 100px 0;
+}
+
+.subheading {
+    font-size: 12px;
+    letter-spacing: .1em;
+    margin-bottom: 1.5em;
+}
+
+.footerContent {
+    max-width: 680px;
+    margin: 0 2em 2em 0;
+}
+
+.footerLink {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .2em;
+    color: black !important;
+    text-transform: uppercase;
+    transition: color .2s linear;
+}
+
+.footerLink:hover {
+    color: #55a0b5 !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.footerLinks {
+    margin: 1em 0;
 }
