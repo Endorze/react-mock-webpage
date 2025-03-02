@@ -33,8 +33,8 @@ const Footer = () => {
                                 <h2 className={styles.subheading}>Follow Us</h2>
                                 <HorizontalDisplay>
                                     <div className={styles.linkWrap}>
-                                        <a className={`${styles.contactSocialLink} ${styles.facebook}`}>Bethesda Facebook</a>
-                                        <a className={`${styles.contactSocialLink} ${styles.twitter}`}>Bethesda Twitter</a>
+                                        <a href="/" className={`${styles.contactSocialLink} ${styles.facebook}`}>Bethesda Facebook</a>
+                                        <a href="/" className={`${styles.contactSocialLink} ${styles.twitter}`}>Bethesda Twitter</a>
                                     </div>
                                 </HorizontalDisplay>
                             </VerticalDisplay>
@@ -42,17 +42,17 @@ const Footer = () => {
                     </div>
                         <div className={styles.footerContent}>
                             <div className={styles.footerLinks}>
-                                <a className={styles.footerLink}>terms of service</a>
+                                <a href="/" className={styles.footerLink}>terms of service</a>
                                 <span>•</span>
-                                <a className={styles.footerLink}>privacy policy</a>
+                                <a href="/" className={styles.footerLink}>privacy policy</a>
                                 <span>•</span>
-                                <a className={styles.footerLink}>legal information</a>
+                                <a href="/" className={styles.footerLink}>legal information</a>
                                 <span>•</span>
-                                <a className={styles.footerLink}>code of conduct</a>
+                                <a href="/" className={styles.footerLink}>code of conduct</a>
                                 <span>•</span>
-                                <a className={styles.footerLink}>cookie policy</a>
+                                <a href="/" className={styles.footerLink}>cookie policy</a>
                                 <span>•</span>
-                                <a className={styles.footerLink}>contact</a>
+                                <a href="/" className={styles.footerLink}>contact</a>
                             </div>
                             <div>
                             <p>© 2025 <a href="https://bethesda.net/">Bethesda Softworks LLC</a>, a <a href="https://www.zenimax.com/">Zenimax Media</a> Company. Trademarks belong to their respective owners. All rights reserved.</p>
