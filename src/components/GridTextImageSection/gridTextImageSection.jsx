@@ -4,7 +4,7 @@ import VerticalDisplay from "../VerticalDisplay/verticalDisplay.jsx";
 import Wrapper from "../Wrapper/wrapper.jsx";
 import Button from "../Button/button.jsx";
 
-const GridTextImageSection = ({}) => {
+const GridTextImageSection = ({title1, title2, title3, title4, description1, description2, imagePath, buttonText}) => {
     return (<div>
         <Container>
             <Wrapper>
