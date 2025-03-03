@@ -1,0 +1,8 @@
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textSection {
+    flex-basis: calc(50% - 18px);
+}
