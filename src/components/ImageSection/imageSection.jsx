@@ -1,3 +1,4 @@
+import styles from "./imageSection.module.css"
 
 const ImageSection = ({imagePath}) => {
     const defaultImage = "/image/dogmeat.jpg";

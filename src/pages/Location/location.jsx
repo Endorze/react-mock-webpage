@@ -1,4 +1,3 @@
-import styles from "./location.module.css"
 import CareerSection from "../../components/CareerSection/careerSection";
 import Divider from "../../components/Divider/divider";
 import Footer from "../../components/Footer/footer";
