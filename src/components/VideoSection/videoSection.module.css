@@ -1,0 +1,25 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    height: 50vh;
+}
+
+.section h2 {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.background {
+    background-color: #0d161d;
+    text-align: left;
+    color: #fff;
+    padding: 60px 0 80px;
+}
+    
+.div1 { grid-area: 1 / 1 / 3 / 3; }
+.div2 { grid-area: 1 / 3 / 2 / 4; }
+.div3 { grid-area: 2 / 3 / 3 / 4; }
