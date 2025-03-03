@@ -1,3 +1,4 @@
+import styles from "./overview.module.css"
 import CareerSection from "../../components/CareerSection/careerSection";
 import Divider from "../../components/Divider/divider";
 import Footer from "../../components/Footer/footer";
@@ -6,15 +7,17 @@ import LocationSection from "../../components/LocationSection/locationSection";
 import ImageSection from "../../components/ImageSection/imageSection";
 
 
-const Contact = () => {
-    return <div>
-        <ImageSection imagePath={"/image/contact/contactfallout.png"}/>
-        <CareerSection />
-        <LatestNews />
-        <Divider />
-        <LocationSection />
-        <Footer />
-    </div>
+const Overview = () => {
+    return (
+        <div>
+            <ImageSection imagePath={"/image/overview/fallout.jpg"}/>
+            <CareerSection />
+            <LatestNews />
+            <Divider />
+            <LocationSection />
+            <Footer />
+        </div>
+    )
 }
 
-export default Contact;
+export default Overview;

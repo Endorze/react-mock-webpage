@@ -39,8 +39,8 @@ const Header = ({
                 <a className={styles.highlight} onClick={() => setCurrentPage("home")}>Home</a>
                 <a onClick={() => setCurrentPage("about")}>About</a>
                 <a onClick={() => setCurrentPage("contact")}>Contact</a>
-                <a onClick={() => setCurrentPage("about")}>Overview</a>
-                <a onClick={() => setCurrentPage("contact")}>Locations</a>
+                <a onClick={() => setCurrentPage("overview")}>Overview</a>
+                <a onClick={() => setCurrentPage("location")}>Locations</a>
             </div>
         </Container>
     </div>)
