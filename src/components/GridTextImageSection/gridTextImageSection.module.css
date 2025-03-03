@@ -1,0 +1,71 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+    max-height: 600px;
+    }
+    
+    .sectionDiv1 { grid-area: 1 / 1 / 2 / 2; }
+    .sectionDiv1 p {
+        font-size: 4rem;
+        font-weight: 475;
+        font-family: "Open Sans";
+    }
+    .sectionDiv1 h3 {
+        color: #e09765;
+        font-weight: 500;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+    .sectionDiv2 { grid-area: 2 / 1 / 3 / 2; }
+    .sectionDiv3 { grid-area: 1 / 2 / 2 / 3; }
+    .sectionDiv3 img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .sectionDiv4 { grid-area: 2 / 2 / 3 / 3; }
+
+    .section p {
+        line-height: 1.8;
+    }
+
+    .section h2 {
+        font-weight: 400;
+    }
+
+    .gridButton {
+        background: #d9d9d9;
+        border: none;
+        color: #000;
+        cursor: pointer;
+        display: inline-block;
+        font-size: .8125rem;
+        font-weight: 700;
+        letter-spacing: .25em;
+        padding: 1em 2.5em;
+        text-transform: uppercase;
+        transition: color 0.2s linear;
+        max-width: 250px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .gridButton:hover {
+        color: #55a0b5;
+    }
+
+    .buttonDiv {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .buttonDiv button {
+        width: 60%;
+    }
