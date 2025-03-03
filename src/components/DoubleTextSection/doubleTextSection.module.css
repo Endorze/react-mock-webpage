@@ -1,8 +1,30 @@
 .horizontal {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
+    padding-top: 75px;
 }
 
 .textSection {
-    flex-basis: calc(50% - 18px);
+    max-width: 500px;
+    width: 100%;
+}
+
+.textSection h3 {
+    color: #e09765;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.textSection h2 {
+    font-size: 2.5rem;
+    display: inline-block;
+    line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.textSection p {
+    letter-spacing: .1em;
 }

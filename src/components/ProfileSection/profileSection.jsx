@@ -8,7 +8,8 @@ const ProfileSection = () => {
         <div>
             <Container>
                 <Wrapper>
-                    <div className={styles.section}>
+                    <h2 className={styles.profileHeader}>Bethesdas (FAKE) Crew</h2>
+                    <div id="team" className={styles.section}>
                         <div className={styles.div1}>
                             <ProfileItem imagePath={"/image/about/profile/alex.jpg"} name={"Alexander Hallgren"} description={"Nyaa nyaa morning beauty routine of licking self furrier and even more furrier hairball the fat cat sat on the mat bat away with paws meowwww."}/>
                         </div>

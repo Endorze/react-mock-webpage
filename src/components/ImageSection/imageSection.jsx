@@ -1,6 +1,8 @@
+import Container from "../Container/container";
+import Wrapper from "../Wrapper/wrapper";
 import styles from "./imageSection.module.css"
 
-const ImageSection = ({imagePath}) => {
+const ImageSection = ({imagePath, children}) => {
     const defaultImage = "/image/dogmeat.jpg";
 
     return (
@@ -8,6 +10,7 @@ const ImageSection = ({imagePath}) => {
             backgroundImage: `url(${imagePath || defaultImage})`,
 
         }}>
+            <div className={styles.optionalChild}>{children}</div>
         </div>
     )
 }

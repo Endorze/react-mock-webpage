@@ -17,7 +17,7 @@ const GridTextImageSection = ({}) => {
                         <div className={styles.buttonDiv}>
                             <h2>Eager to know more about us?</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus modi molestias dignissimos exercitationem ipsa iusto nulla aliquam minima explicabo tempore. Veritatis impedit voluptates eum illum reprehenderit quidem sequi qui quia?</p>
-                            <Button children={<h2>Meet our Crew</h2>} className={styles.gridButton}/>
+                            <a href="#team" className={styles.gridButton}><h2>Meet our Crew</h2></a>
                         </div>
                     </div>
                     <div className={styles.sectionDiv3}>

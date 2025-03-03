@@ -16,12 +16,10 @@ const About = () => {
         <Divider />
         <GridTextImageSection />
         <Divider />
-        <ProfileSection />
-        <Divider />
         <HeroSubsection />
+        <Divider />
+        <ProfileSection />
         <DoubleTextSection />
-        <CareerSection />
-        <LatestNews />
         <Divider />
         <LocationSection />
         <Footer />
