@@ -1,7 +1,7 @@
 .imageSection {
     background-size: cover;
     background-position: center;
-    min-height: 70vh;
+    min-height: 60vh;
     position: relative;
     display: flex;
 }
@@ -16,10 +16,11 @@
 
 .optionalChild {
     display: flex;
-    padding: 50px 100px;
-    flex-direction: column;
-    max-width: 800px;
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1200px;
     width: 100%;
+    justify-content: space-between;
     margin-top: auto;
     color: #fff;
 }
