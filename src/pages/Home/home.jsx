@@ -5,7 +5,6 @@ import HeroSubsection from "../../components/HeroSubsection/heroSubsection";
 import HomeHero from "../../components/HomeHero/homeHero";
 import LatestNews from "../../components/LatestNews/latestNews";
 import LocationSection from "../../components/LocationSection/locationSection";
-import MainContent from "../../components/MainContent/mainContent";
 import Overview from "../../components/Overview/overview";
 
 const Home = () => {
