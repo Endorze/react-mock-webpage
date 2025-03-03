@@ -1,0 +1,14 @@
+.vertical {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.contactBody {
+    background-color: #0d161d;
+    box-shadow: 0 -15px 20px 5px #0d161d;
+}
+
+.career {
+    color: #fff;
+}

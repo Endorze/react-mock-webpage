@@ -39,6 +39,7 @@
 
 .footerWrapper {
     min-height: 60vh;
+    background-color: #fff;
 }
 
 .footerWrapper a {

@@ -1,0 +1,23 @@
+.faqItem {
+    width: calc(33% - 15px);
+    height: 300px;
+    background: #fff;
+    transform: translateY(-15px);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    padding: 30px;
+}
+
+.faqItem img {
+    height: 40px;
+}
+
+.faqItem a {
+    color: black;
+    text-decoration: none;
+}
+
+.faqItem:hover {
+    transform: scale(1.01);
+}
