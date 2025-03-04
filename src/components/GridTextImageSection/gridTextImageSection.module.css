@@ -69,3 +69,31 @@
     .buttonDiv button {
         width: 60%;
     }
+
+@media screen and (max-width: 768px) {
+
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sectionDiv1 p {
+        font-size: 2.5em;
+    }
+
+    .sectionDiv4 {
+        display: none;
+    }
+
+    .section img {
+        display: none;
+    }
+
+    .section {
+        max-height: 100%;
+    }
+    
+    .gridButton {
+        margin-top: 20px;
+    }
+}

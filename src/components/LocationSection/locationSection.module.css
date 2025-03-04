@@ -34,3 +34,9 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+    .buttonWrap {
+        flex-direction: column;
+    }
+}

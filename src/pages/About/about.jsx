@@ -12,7 +12,6 @@ import DoubleTextSection from "../../components/DoubleTextSection/doubleTextSect
 
 const About = () => {
     return <div>
-        <ImageSection imagePath={"/image/about/fallout76.jpg"}/>
         <Divider />
         <GridTextImageSection />
         <Divider />

@@ -28,3 +28,9 @@
 .textSection p {
     letter-spacing: .1em;
 }
+
+@media screen and (max-width: 768px) {
+    .horizontal {
+        flex-direction: column;
+    }
+}
