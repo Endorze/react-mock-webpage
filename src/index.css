@@ -28,3 +28,7 @@ html {
   font-weight: 300;
   line-height: 1.8;
 }
+
+html, body {
+  overflow-x: hidden;
+}

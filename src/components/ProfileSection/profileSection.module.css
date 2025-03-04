@@ -5,6 +5,10 @@
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     }
+
+.section img {
+    width: 100%;
+}
     
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 2 / 1 / 3 / 2; }
@@ -16,9 +20,14 @@
 .div8 { grid-area: 2 / 4 / 3 / 5; }
 
 .profileHeader {
-    letter-spacing: .05em;
+    letter-spacing: .1em;
     margin-bottom:20px;
-    color: #e09765;
-    text-decoration: underline;
     font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
 }
