@@ -33,3 +33,13 @@
     flex-grow: 1;
     padding-bottom: 5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 50vh;
+    }
+
+    .heroTextContainer h2 {
+        font-size: 3em;
+    }
+}

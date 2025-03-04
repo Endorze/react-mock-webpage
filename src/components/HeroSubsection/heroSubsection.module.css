@@ -21,3 +21,17 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+
+@media screen and (max-width: 768px) {
+    .horizontal {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .subsection {
+        padding: 0;
+    }
+
+    
+}

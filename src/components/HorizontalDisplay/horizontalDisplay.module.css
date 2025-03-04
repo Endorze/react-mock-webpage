@@ -9,3 +9,10 @@
     height: 300px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+    .horizontal {
+        display: flex;
+        flex-direction: column;
+    }
+}

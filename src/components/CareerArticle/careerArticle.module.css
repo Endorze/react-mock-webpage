@@ -29,3 +29,12 @@
         flex-basis: calc(50% - 18px);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .careerItem {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: auto;
+    }
+}
