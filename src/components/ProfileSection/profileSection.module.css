@@ -7,7 +7,7 @@
     }
 
 .section img {
-    width: 100%;
+    width: 200px;
 }
     
 .div1 { grid-area: 1 / 1 / 2 / 2; }

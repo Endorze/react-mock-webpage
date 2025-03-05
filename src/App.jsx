@@ -6,8 +6,6 @@ import Contact from './pages/Contact/contact.jsx'
 import Header from "./components/Header/header.jsx"
 import "./font.css";
 import Overview from './pages/Overview/overview.jsx'
-import Location from './pages/Location/location.jsx'
-
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home")
@@ -20,7 +18,6 @@ function App() {
       {currentPage === "about" && <About />}
       {currentPage === "contact" && <Contact />}
       {currentPage === "overview" && <Overview />}
-      {currentPage === "location" && <Location />}
     </div>
   )
 }
