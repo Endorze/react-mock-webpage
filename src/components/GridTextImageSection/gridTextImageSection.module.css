@@ -2,15 +2,16 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 40px;
-    grid-row-gap: 0px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     max-height: 600px;
     }
     
     .sectionDiv1 { grid-area: 1 / 1 / 2 / 2; }
+
     .sectionDiv1 p {
-        font-size: 4rem;
-        font-weight: 475;
+        font-size: 3.5rem;
+        font-weight: 550;
         font-family: "Open Sans";
     }
     .sectionDiv1 h3 {
@@ -46,9 +47,8 @@
         display: inline-block;
         font-size: .8125rem;
         font-weight: 700;
-        letter-spacing: .25em;
+        letter-spacing: .1em;
         padding: 1em 2.5em;
-        text-transform: uppercase;
         transition: color 0.2s linear;
         max-width: 250px;
         text-align: center;
@@ -64,6 +64,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        gap: 10px;
     }
 
     .buttonDiv button {

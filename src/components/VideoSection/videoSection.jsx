@@ -4,7 +4,7 @@ import styles from "./videoSection.module.css"
 
 const VideoSection = ({videoLink, title1, title2, description1, description2}) => {
     return (
-        <div className={styles.background}>
+        <div className={styles.background} id="trailer">
         <Container>
             <Wrapper>
                 <div className={styles.section}>
