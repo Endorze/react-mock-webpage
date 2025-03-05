@@ -1,9 +1,6 @@
-import CareerSection from "../../components/CareerSection/careerSection";
 import Divider from "../../components/Divider/divider";
 import Footer from "../../components/Footer/footer";
-import LatestNews from "../../components/LatestNews/latestNews";
 import LocationSection from "../../components/LocationSection/locationSection";
-import ImageSection from "../../components/ImageSection/imageSection";
 import GridTextImageSection from "../../components/GridTextImageSection/gridTextImageSection";
 import VideoSection from "../../components/VideoSection/videoSection";
 
@@ -11,7 +8,6 @@ import VideoSection from "../../components/VideoSection/videoSection";
 const Overview = () => {
     return (
         <div>
-            <ImageSection imagePath={"/image/overview/fallout.jpg"}/>
             <Divider />
             <GridTextImageSection />
             <Divider />

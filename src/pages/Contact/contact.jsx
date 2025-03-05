@@ -1,12 +1,9 @@
 import CareerSection from "../../components/CareerSection/careerSection";
-import Divider from "../../components/Divider/divider";
 import Footer from "../../components/Footer/footer";
-import LatestNews from "../../components/LatestNews/latestNews";
 import LocationSection from "../../components/LocationSection/locationSection";
 import ImageSection from "../../components/ImageSection/imageSection";
 import styles from "./contact.module.css"
 import FaqSection from "../../components/FaqSection/faqSection";
-import DoubleTextSection from "../../components/DoubleTextSection/doubleTextSection";
 
 
 const Contact = () => {

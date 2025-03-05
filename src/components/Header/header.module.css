@@ -36,6 +36,7 @@
   justify-content: space-between;
   transition: 0.5s ease-in-out;
   z-index: 1;
+  background-color: #0000003a;
 }
 
 .header img {
