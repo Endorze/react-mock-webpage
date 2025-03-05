@@ -1,7 +1,7 @@
 .imageSection {
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    min-height: 60vh;
     position: relative;
     display: flex;
 }
@@ -15,6 +15,7 @@
 }
 
 .optionalChild {
+    margin-top: 100px;
     display: flex;
     padding: 50px 0;
     margin: 0 auto;
@@ -49,5 +50,12 @@
 
     .optionalChild h2 {
         font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .imageSection {
+        margin-top: 100px;
+        padding: 20px;
     }
 }
