@@ -52,3 +52,9 @@
         font-size: 3rem;
     }
 }
+
+@media screen and (max-height: 945px) {
+    .imageSection {
+        margin-top: 100px;
+    }
+}
