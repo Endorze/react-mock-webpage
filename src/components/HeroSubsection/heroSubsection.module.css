@@ -12,6 +12,10 @@
     line-height: 1.8;
 }
 
+.subsection h1 {
+    font-weight: 550;
+}
+
 .subsectionContent, .subsectionVideo {
     flex-basis: calc(50% - 18px);
 }
