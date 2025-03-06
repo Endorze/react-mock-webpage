@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import logo from "/image/whitelogo.png"
-import styles from "./PhoneHeader.module.css"
-import Container from "../Container/container";
+import styles from "./phoneHeader.module.css"
+
 
 const PhoneHeader = ({ currentPage, setCurrentPage }) => {
 
