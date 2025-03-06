@@ -3,6 +3,7 @@ import Footer from "../../components/Footer/footer";
 import LocationSection from "../../components/LocationSection/locationSection";
 import GridTextImageSection from "../../components/GridTextImageSection/gridTextImageSection";
 import VideoSection from "../../components/VideoSection/videoSection";
+import MyMap from "../../components/MapContainer/MyMap";
 
 const Overview = () => {
     return (
@@ -19,6 +20,7 @@ const Overview = () => {
             description1={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptates error itaque consectetur officia. Eaque voluptatem ipsa autem magni fuga pariatur doloremque, placeat corporis id, assumenda nam provident culpa expedita?"}
             description2={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptates error itaque consectetur officia. Eaque voluptatem ipsa autem magni fuga pariatur doloremque, placeat corporis id, assumenda nam provident culpa expedita?"}
             />
+            <MyMap />
             <LocationSection />
             <Footer />
         </div>
