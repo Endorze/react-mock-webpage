@@ -1,12 +1,13 @@
 .contactTitle {
     padding-bottom: 30px;
-    font-size: 16px;
-    letter-spacing: .25em;
+    font-size: 2em;
+    letter-spacing: .1em;
 }
 
 .linkWrap {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 .contactSocialLink {
@@ -54,9 +55,9 @@
 }
 
 .subheading {
-    font-size: 12px;
+    font-size: 1em;
     letter-spacing: .1em;
-    margin-bottom: 1.5em;
+    margin-bottom: .5em;
 }
 
 .footerContent {
@@ -71,6 +72,10 @@
     color: black !important;
     text-transform: uppercase;
     transition: color .2s linear;
+}
+
+.footerLinks a {
+    font-size: 0.8em;
 }
 
 .footerLink:hover {
@@ -89,3 +94,8 @@ span {
     margin: 1em 0;
 }
 
+@media screen and (max-width: 768px) {
+    .subheading {
+        margin-top: 10px;
+    }
+}
