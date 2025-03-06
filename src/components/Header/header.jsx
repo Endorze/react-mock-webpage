@@ -40,7 +40,6 @@ const Header = ({
                 <a onClick={() => setCurrentPage("about")}>About</a>
                 <a onClick={() => setCurrentPage("contact")}>Contact</a>
                 <a onClick={() => setCurrentPage("overview")}>Overview</a>
-
             </div>
         </Container>
     </div>)
