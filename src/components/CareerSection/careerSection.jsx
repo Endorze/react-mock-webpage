@@ -1,6 +1,7 @@
 import CareerArticle from "../CareerArticle/careerArticle"
 import Wrapper from "../Wrapper/wrapper";
 import styles from "./careerSection.module.css"
+import careerList from "../../../public/data/data";
 
 const CareerSection = () => {
     return (
@@ -8,14 +9,10 @@ const CareerSection = () => {
         <Wrapper>
             <h3 className={styles.careerh3}>Careers</h3>
             <div className={styles.careerItems}>
-                    <CareerArticle jobTitle={"Programmer.se backend senior / Senior Backend Programmer"} department={"Department: Engineering/Programming"} location={"Location: Montreal, QC, CA"}/>
-                    <CareerArticle jobTitle={"Programmer.se backend senior / Senior Backend Programmer"} department={"Department: Engineering/Programming"} location={"Location: Montreal, QC, CA"}/>
-                    <CareerArticle jobTitle={"Programmer.se backend senior / Senior Backend Programmer"} department={"Department: Engineering/Programming"} location={"Location: Montreal, QC, CA"}/>
-                    <CareerArticle jobTitle={"Programmer.se backend senior / Senior Backend Programmer"} department={"Department: Engineering/Programming"} location={"Location: Montreal, QC, CA"}/>
-                    <CareerArticle jobTitle={"Programmer.se backend senior / Senior Backend Programmer"} department={"Department: Engineering/Programming"} location={"Location: Montreal, QC, CA"}/>
-                    <CareerArticle jobTitle={"Programmer.se backend senior / Senior Backend Programmer"} department={"Department: Engineering/Programming"} location={"Location: Montreal, QC, CA"}/>
-                    <CareerArticle jobTitle={"Programmer.se backend senior / Senior Backend Programmer"} department={"Department: Engineering/Programming"} location={"Location: Montreal, QC, CA"}/>
-                    <CareerArticle jobTitle={"Programmer.se backend senior / Senior Backend Programmer"} department={"Department: Engineering/Programming"} location={"Location: Montreal, QC, CA"}/>
+                {careerList.map((career) => (
+                    <CareerArticle key={career.id} jobTitle={career.title} department={career.department} location={career.location}/>
+                ))}
+
             </div>
             <div>
                 <a href="#" className={styles.moreJobs}>More Jobs</a>
